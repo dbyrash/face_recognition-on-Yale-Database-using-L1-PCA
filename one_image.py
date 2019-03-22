@@ -4,7 +4,7 @@ import os
 from matplotlib import pyplot as plt
 import numpy as np
 
-ORG_DATA_PATH = "C:\\Users\\dubey\\PycharmProjects\\face_recognition\\yalefaces\\"
+ORG_DATA_PATH = "C:\\"
 NEW_DATA_PATH = ORG_DATA_PATH + "jpg_images\\"
 all_files = [f for f in os.listdir(ORG_DATA_PATH) if os.path.isfile(ORG_DATA_PATH + f)]
 subject_files = [f for f in all_files if 'txt' not in f and 'gif' not in f]
