@@ -3,7 +3,7 @@ import numpy as np
 import pickle as pkl
 from numpy import linalg as LA
 
-ORG_DATA_PATH = "C:\\Users\\dubey\\PycharmProjects\\face_recognition\\yalefaces\\"
+ORG_DATA_PATH = "C:\\..."
 NEW_DATA_PATH = ORG_DATA_PATH + "jpg_images\\"
 NUM_COMPONENTS = 2
 
