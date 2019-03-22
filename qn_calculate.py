@@ -3,7 +3,7 @@ import numpy as np
 import pickle as pkl
 
 
-ORG_DATA_PATH = "C:\\Users\\dubey\\PycharmProjects\\face_recognition\\yalefaces\\"
+ORG_DATA_PATH = "C:\"
 NEW_DATA_PATH = ORG_DATA_PATH + "jpg_images\\"
 Q1_list_filename = NEW_DATA_PATH + "q1_list_file"
 mean_list_filename = NEW_DATA_PATH + "train_mean_list"
