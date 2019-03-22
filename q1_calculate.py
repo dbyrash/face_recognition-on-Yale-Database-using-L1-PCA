@@ -44,7 +44,7 @@ def l1pca_SBF_rank1_simplified(X, L):
     return Qprop, Bprop, iteration, l_best
 
 
-ORG_DATA_PATH = "C:\\Users\\dubey\\PycharmProjects\\face_recognition\\yalefaces\\"
+ORG_DATA_PATH = "C:"
 NEW_DATA_PATH = ORG_DATA_PATH + "jpg_images\\"
 
 Q_list = []
